@@ -77,6 +77,7 @@
   <project name="DirtyUnicorns/android_kernel_huawei_angler" path="kernel/huawei/angler" remote="github" revision="n7x" />
   <project name="TheMuppets/proprietary_vendor_huawei"  path="vendor/huawei/angler"  remote="github" revision="cm-14.1" />
   <project name="LineageOS/android_kernel_huawei_angler" path="kernel/huawei/angler" remote="github" revision="cm-14.1" />
+  <project name="LineageOS/android_device_huawei_angler" path="device/huawei/angler" remote="github" revision="cm-14.1" />
   <project name="Flash-ROM/kernel_huawei_angler" path="kernel/huawei/angler" remote="github" revision="n7.1.1" />
  -->
   <project name="KillerDroid96/kernel_huawei_angler" path="kernel/huawei/angler" remote="github" revision="n7.1.1" />
@@ -114,6 +115,5 @@
   <remove-project name="LineageOS/android_packages_apps_CMUpdater" />
   <remove-project name="LineageOS/android_bootable_recovery" />
   <remove-project name="omnirom/android_packages_apps_OmniStyle" />
-  <project name="LineageOS/android_device_huawei_angler" path="device/huawei/angler" remote="github" revision="cm-14.1" />
   -->
 </manifest>
