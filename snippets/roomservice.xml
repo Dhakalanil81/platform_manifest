@@ -90,6 +90,7 @@
 <project name="BenzoRoms/packages_apps_Viper4Android" path="packages/apps/Viper4Android" remote="github" revision="noneone" />
 <project name="KillerDroid96/vendor_addons" path="vendor/addons" remote="github" revision="noneone" />
 <project name="TeamSubstratum/masquerade" path="packages/apps/masquerade" remote="github" revision="n" />
+<remove-project name="omnirom/android_packages_apps_OmniStyle" />
 <project name="KillerDroid96/packages_apps_OmniStyle" path="packages/apps/OmniStyle" remote="github" revision="OMS" />
 ######################################################################################################################################################
  <!-- CHANGES
