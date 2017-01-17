@@ -107,7 +107,6 @@
 #####################################################################| Externals |####################################################################
 <project name="LineageOS/android_external_stlport"                  path="external/stlport"                   remote="github"                    />
 <project path="external/busybox" name="external_busybox" remote="benzo" />
-<project path="external/f2fs-tools" name="external_f2fs-tools" groups="pdk" remote="benzo" />
 ######################################################################################################################################################
  <!-- CHANGES
   <remove-project name="LineageOS/android_packages_apps_CMUpdater" />
