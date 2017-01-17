@@ -85,13 +85,17 @@
   <project name="LineageOS/android_kernel_samsung_jf"                 path="kernel/samsung/jf"                  remote="github" revision="cm-14.1" />
   <project name="LineageOS/android_hardware_samsung"                  path="hardware/samsung"                   remote="github" revision="cm-14.1" />
 ####################################################################| MISC |##########################################################################
-  <project name="LineageOS/android_external_stlport"                  path="external/stlport"                   remote="github"                    />
+
 ####################################################################| Addons |########################################################################
 <project name="BenzoRoms/packages_apps_Viper4Android" path="packages/apps/Viper4Android" remote="github" revision="noneone" />
 <project name="KillerDroid96/vendor_addons" path="vendor/addons" remote="github" revision="noneone" />
 <project name="TeamSubstratum/masquerade" path="packages/apps/masquerade" remote="github" revision="n" />
 <remove-project name="omnirom/android_packages_apps_OmniStyle" />
 <project name="KillerDroid96/packages_apps_OmniStyle" path="packages/apps/OmniStyle" remote="github" revision="OMS" />
+#####################################################################| Externals |####################################################################
+<project name="LineageOS/android_external_stlport"                  path="external/stlport"                   remote="github"                    />
+<project path="external/busybox" name="external_busybox" remote="benzo" />
+<project path="external/f2fs-tools" name="external_f2fs-tools" groups="pdk" remote="benzo" />
 ######################################################################################################################################################
  <!-- CHANGES
   <remove-project name="LineageOS/android_packages_apps_CMUpdater" />
