@@ -84,7 +84,19 @@
   <project name="LineageOS/android_device_samsung_qcom-common"        path="device/samsung/qcom-common"         remote="github" revision="cm-14.1" />
   <project name="LineageOS/android_kernel_samsung_jf"                 path="kernel/samsung/jf"                  remote="github" revision="cm-14.1" />
   <project name="LineageOS/android_hardware_samsung"                  path="hardware/samsung"                   remote="github" revision="cm-14.1" />
-####################################################################| MISC |##########################################################################
+####################################################################| Remove |##########################################################################
+  <!--
+  <project path="packages/apps/CMFileManager" name="LineageOS/android_packages_apps_CMFileManager" />
+  <project path="packages/apps/Browser" name="LineageOS/android_packages_apps_Browser" />
+  <project path="packages/apps/CMFileManager" name="LineageOS/android_packages_apps_CMFileManager" />
+  <project path="packages/apps/CMWallpapers" name="LineageOS/android_packages_apps_CMWallpapers" />
+  <project path="packages/apps/Trebuchet" name="LineageOS/android_packages_apps_Trebuchet" />
+   -->
+  <remove-project name="LineageOS/android_packages_apps_CMFileManager" />
+  <remove-project name="LineageOS/android_packages_apps_Browser" />
+  <remove-project name="LineageOS/android_packages_apps_CMFileManager" />
+  <remove-project name="LineageOS/android_packages_apps_CMWallpapers" />
+  <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
 
 ####################################################################| Addons |########################################################################
 <project name="BenzoRoms/packages_apps_Viper4Android" path="packages/apps/Viper4Android" remote="github" revision="noneone" />
