@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  
+  <remote  name="benzo"
+           fetch="https://github.com/BenzoRoms/"
+           revision="noneone"/>
+  
   <remove-project name="LineageOS/android_bootable_recovery" />
   <project name="KillerDroid96/android_bootable_recovery" path="bootable/recovery" remote="github" revision="OMS" />
   
@@ -86,8 +91,7 @@
   <project name="LineageOS/android_hardware_samsung"                  path="hardware/samsung"                   remote="github" revision="cm-14.1" />
 ####################################################################| Removed |##########################################################################
   <!--
-  cm.mk
-  <project path="packages/apps/CMFileManager" name="LineageOS/android_packages_apps_CMFileManager" />
+  cm.xml
   <project path="packages/apps/Browser" name="LineageOS/android_packages_apps_Browser" />
   <project path="packages/apps/CMFileManager" name="LineageOS/android_packages_apps_CMFileManager" />
   <project path="packages/apps/CMWallpapers" name="LineageOS/android_packages_apps_CMWallpapers" />
