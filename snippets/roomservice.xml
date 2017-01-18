@@ -80,14 +80,6 @@
   <project name="pimpmaneaton/android_device_huawei_angler"           path="device/huawei/angler"               remote="github" revision="n7.1"    />
   <project name="TheMuppets/proprietary_vendor_huawei"                path="vendor/huawei/angler"               remote="github" revision="cm-14.1" />
   <project name="TheMuppets/proprietary_vendor_qcom_binaries"         path="vendor/qcom/binaries"               remote="github" revision="cm-14.1" />
-####################################################################| GalaxyS4 |######################################################################
-  <project name="TheMuppets/proprietary_vendor_samsung"               path="vendor/samsung"                     remote="github" revision="cm-14.1" />
-  <project name="LineageOS/android_device_samsung_jfltespr"           path="device/samsung/jfltespr"            remote="github" revision="cm-14.1" />
-  <project name="LineageOS/android_device_samsung_jf-common"          path="device/samsung/jf-common"           remote="github" revision="cm-14.1" />
-  <project name="LineageOS/android_device_qcom_common"                path="device/qcom/common"                 remote="github" revision="cm-14.1" />
-  <project name="LineageOS/android_device_samsung_qcom-common"        path="device/samsung/qcom-common"         remote="github" revision="cm-14.1" />
-  <project name="LineageOS/android_kernel_samsung_jf"                 path="kernel/samsung/jf"                  remote="github" revision="cm-14.1" />
-  <project name="LineageOS/android_hardware_samsung"                  path="hardware/samsung"                   remote="github" revision="cm-14.1" />
 ####################################################################| Addons |########################################################################
 <remove-project name="omnirom/android_packages_apps_OmniStyle"                                                                                     />
 <project name="KillerDroid96/packages_apps_OmniStyle"                 path="packages/apps/OmniStyle"            remote="github" revision="OMS"     />
