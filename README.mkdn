@@ -85,7 +85,7 @@ Alright, so now we’re getting there. I have outlined the basics of what we’r
         
         Use Below for Substratum OMS-7
         
-        repo init -u https://github.com/KillerDroid96/platform_manifest.git -b OMS
+        repo init -u https://github.com/Dhakalanil81/platform_manifest.git -b OMS
 
 ##### Syncing the source
 [Hint: This might take a long time as the source is ~20GB]
