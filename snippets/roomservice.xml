@@ -97,7 +97,9 @@
 <project name="LineageOS/android_external_stlport"                    path="external/stlport"                   remote="github"                    />
 <project path="external/busybox"                                      name="external_busybox"                   remote="benzo"                     />
 ####################################################################| Removed |#######################################################################
+  <!--
   <remove-project  name="LineageOS/android_packages_apps_Browser" />
+  -->
   <remove-project  name="LineageOS/android_packages_apps_CMFileManager" />
   <remove-project  name="LineageOS/android_packages_apps_CMWallpapers" />
   <remove-project  name="LineageOS/android_packages_apps_Trebuchet" />
