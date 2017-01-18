@@ -100,7 +100,7 @@
   <!--
   <remove-project  name="LineageOS/android_packages_apps_Browser" />
   -->
-  <remove-project  name="LineageOS/android_packages_apps_CMFileManager" />
+  <delete-project  name="LineageOS/android_packages_apps_CMFileManager" />
   <remove-project  name="LineageOS/android_packages_apps_CMWallpapers" />
   <remove-project  name="LineageOS/android_packages_apps_Trebuchet" />
   <remove-project  name="LineageOS/android_packages_apps_CMUpdater" />
