@@ -92,15 +92,6 @@
   <project name="LineageOS/android_device_samsung_qcom-common"        path="device/samsung/qcom-common"         remote="github" revision="cm-14.1" />
   <project name="LineageOS/android_kernel_samsung_jf"                 path="kernel/samsung/jf"                  remote="github" revision="cm-14.1" />
   <project name="LineageOS/android_hardware_samsung"                  path="hardware/samsung"                   remote="github" revision="cm-14.1" />
-####################################################################| Removed |##########################################################################
-  <!--
-  cm.xml
-  <project path="packages/apps/Browser" name="LineageOS/android_packages_apps_Browser" />
-  <project path="packages/apps/CMFileManager" name="LineageOS/android_packages_apps_CMFileManager" />
-  <project path="packages/apps/CMWallpapers" name="LineageOS/android_packages_apps_CMWallpapers" />
-  <project path="packages/apps/Trebuchet" name="LineageOS/android_packages_apps_Trebuchet" />
-   -->
- 
 ####################################################################| Addons |########################################################################
 <project name="BenzoRoms/packages_apps_Viper4Android" path="packages/apps/Viper4Android" remote="github" revision="noneone" />
 <project name="KillerDroid96/vendor_addons" path="vendor/addons" remote="github" revision="noneone" />
@@ -110,10 +101,20 @@
 #####################################################################| Externals |####################################################################
 <project name="LineageOS/android_external_stlport"                  path="external/stlport"                   remote="github"                    />
 <project path="external/busybox" name="external_busybox" remote="benzo" />
-######################################################################################################################################################
- <!-- CHANGES
+####################################################################| Removed |#######################################################################
+  <!--
+  cm.xml
+  <project path="packages/apps/Browser" name="LineageOS/android_packages_apps_Browser" />
+  <project path="packages/apps/CMFileManager" name="LineageOS/android_packages_apps_CMFileManager" />
+  <project path="packages/apps/CMWallpapers" name="LineageOS/android_packages_apps_CMWallpapers" />
+  <project path="packages/apps/Trebuchet" name="LineageOS/android_packages_apps_Trebuchet" />
+  rr.xml
+   -->
   <remove-project name="LineageOS/android_packages_apps_CMUpdater" />
   <remove-project name="LineageOS/android_bootable_recovery" />
   <remove-project name="omnirom/android_packages_apps_OmniStyle" />
-  -->
+####################################################################| Replaced |######################################################################
+ <remove-project name="packages_apps_DUI" />
+ <project name="KillerDroid96/packages_apps_DUI" path="packages/apps/DUI" remote="github" revision="nougat" />
+  
 </manifest>
